@@ -2,7 +2,7 @@
 
 piBMLisp(Raspberry pi Bare metal Lisp) is a toy lisp interpreter based on [Circle](https://github.com/rsta2/circle),[circle-stdlib](https://github.com/smuehlst/circle-stdlib) and [microlisp](https://github.com/lazear/microlisp):now it's only use circle-stdlib's IO function as the lisp REPL.The effect on my "rpi4b-notebook":
 
-![1](./pic/2.jpg){:height="300px" width="300px"}![1](./pic/3.jpg){:height="300px" width="300px"}
+![1](./pic/2.jpg) ![1](./pic/3.jpg)
 
 ## Build
 you have to make circle and circle-stdlib well(you can test the samples,especially [circle-stdlib sample2 02-stdio-hello](https://github.com/smuehlst/circle-stdlib/tree/master/samples/02-stdio-hello)).If everything is fine,copy or clone the project under the circle-stdlib's sample folder(to use the makefile and environment) ,then make.The kernel8-rpi4.img is the result(I think you can use the kernel8-rpi4.img of the project directly)
